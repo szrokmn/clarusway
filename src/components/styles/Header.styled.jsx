@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 const StyledHeader = styled.header`
   background: ${({ theme }) => theme.colors.header};
+  max-width: ${({ theme }) => theme["max-width"]};
+  margin: auto;
   padding: 4rem 0;
 `;
 
@@ -22,5 +24,5 @@ export const Image = styled(Logo)`
         margin: 2rem 0;
     }
 `;
-
+  
 export default StyledHeader;

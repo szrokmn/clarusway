@@ -14,9 +14,9 @@ const Header = () => {
         </div>
       </Nav>
       <Flex>
-        <div>
-          <h1>The IT Career of Your Dreams Starts Here!</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti tempore ullam eum est velit voluptate doloremque magni nesciunt aliquam non a vitae ab dolorum beatae quia, autem commodi ex dicta?</p>
+        <div style={{maxWidth:"800px"}}>
+          <h1 style={{margin:"1.5rem"}}>The IT Career of Your Dreams Starts Here!</h1>
+          <p style={{lineHeight:"2rem"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti tempore ullam eum est velit voluptate doloremque magni nesciunt aliquam non a vitae ab dolorum beatae quia, autem commodi ex dicta?</p>
           <Button bg="#A62440">TStart Your New Carier</Button>
         </div>
         <Image src="./images/hero.jpg"/>

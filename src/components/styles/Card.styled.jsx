@@ -6,7 +6,7 @@ const Main = styled.main`
   background-color: #fff;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 4rem;
   margin: 1rem auto;
   gap: 3rem;
@@ -19,20 +19,21 @@ const Main = styled.main`
     flex-direction: column-reverse;
   }
 `;
-export const CardTitle = styled.h2`
-  font-weight: bolder;
-`;
 
 export const CardImg = styled.img`
   width: 90%;
   object-fit: cover;
   /* min-width: 150px; */
-
   margin: 20px;
   border-radius: 10px;
   @media (max-width: ${({ theme }) => theme.responsive}) {
     text-align: center;
   }
+`;
+
+export const CardTitle = styled.h2`  
+  font-weight: bolder;  
+  margin: 1rem 0.4rem;
 `;
 
 export const Description = styled.p`
